@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/libs/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/assets/libs/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./assets/libs/aos/aos.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+</head>
+
+<body>
+    <nav class="_topnav">
+        <div class="container">
+            <div class="main-nav">
+                <div class="logo">
+                    <img src="./assets/images/logo_white_text.png" alt="logo">
+                </div>
+                <div class="menus">
+                    <div class="menu-item">
+                        <a href="#">HOME</a>
+                    </div>
+                    <div class="menu-item">
+                        <a href="#">CAREER</a>
+                    </div>
+                    <div class="menu-item">
+                        <a href="#">LET'S TALK</a>
+                    </div>
+                </div>
+                <div class="menu-toggler">
+                    <button class="btnOpenMega">
+                        <span class="bar-x bar-1"></span>
+                        <span class="bar-x bar-2"></span>
+                        <span class="bar-x bar-3"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="mega-menu">
+        <div class="container-fluid">
+            <div class="header">
+                <div class="logo-menu">
+                    <img src="./assets/images/logo_white_text.png" alt="logo-menu">
+                </div>
+                <div class="menu-container d-none d-lg-flex">
+                    <div class="menubox">
+                        <div class="menu-item">
+                            <div class="menu-block">
+                                <div class="nav-mega">
+                                    <a href="#">
+                                        HOME <i class="fas fa-chevron-down ms-2"></i>
+                                    </a>
+                                </div>
+                                <img class="img-fluid my-3 d-none d-lg-flex"
+                                    src="./assets/images/menus/img-menu-home.png" alt="home">
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-block">
+                                <div class="nav-mega">
+                                    <a href="#">
+                                        COMPANY <i class="fas fa-chevron-down ms-2"></i>
+                                    </a>
+                                </div>
+                                <img class="img-fluid my-3 d-none d-lg-flex"
+                                    src="./assets/images/menus/img-menu-company.png" alt="company">
+                                <div class="links">
+                                    <a href="" class="link">History</a>
+                                    <a href="" class="link"> Mission and Values </a>
+                                    <a href="" class="link">Team </a>
+                                    <a href="" class="link">Contact us</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-block">
+                                <div class="nav-mega">
+                                    <a href="#">
+                                        ENTERPRISE SOLUTION <i class="fas fa-chevron-down ms-2"></i>
+                                    </a>
+                                </div>
+                                <img class="img-fluid my-3 d-none d-lg-flex"
+                                    src="./assets/images/menus/img-menu-enter-sol.png" alt="company">
+                                <div class="m-header">
+                                    Software Application Solution
+                                </div>
+                                <div class="links">
+                                    <a href="" class="link child">
+                                        <i class="fas fa-minus me-2"></i>
+                                        Web Based Application
+                                    </a>
+                                    <a href="" class="link child">
+                                        <i class="fas fa-minus me-2"></i>
+                                        Mobile Application
+                                    </a>
+                                </div>
+                                <div class="m-header">
+                                    Infrastructure Solution
+                                </div>
+                                <div class="links">
+                                    <a href="" class="link child">
+                                        <i class="fas fa-minus me-2"></i>
+                                        IT Managed Services
+                                    </a>
+                                    <a href="" class="link child">
+                                        <i class="fas fa-minus me-2"></i>
+                                        Infrasctucture Design Services
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-block">
+                                <div class="nav-mega">
+                                    <a href="#">
+                                        PRODUCT <i class="fas fa-chevron-down ms-2"></i>
+                                    </a>
+                                </div>
+                                <img class="img-fluid my-3 d-none d-lg-flex"
+                                    src="./assets/images/menus/img-menu-product.png" alt="company">
+                                <div class="links">
+                                    <a href="" class="link">e-Statement</a>
+                                    <a href="" class="link">Agritech System</a>
+                                    <a href="" class="link">e-Tax System</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-block">
+                                <div class="nav-mega">
+                                    <a href="#">
+                                        LET'S TALK <i class="fas fa-chevron-down ms-2"></i>
+                                    </a>
+                                </div>
+                                <img class="img-fluid my-3 d-none d-lg-flex"
+                                    src="./assets/images/menus/img-menu-contact.png" alt="company">
+                                <div class="links">
+                                    <a href="" class="link">Contact us</a>
+                                    <a href="" class="link">Career</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mobile-menu-mega d-flex d-lg-none">
+                    <div class="accordion accordion-flush ps-5 pe-3" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <a href="" class="link">HOME</a>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#company" aria-expanded="false" aria-controls="company">
+                                COMPANY
+                            </button>
+                            <div id="company" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="links">
+                                    <a href="#" class="link">History</a>
+                                    <a href="#" class="link">Mission and Values</a>
+                                    <a href="#" class="link">Team</a>
+                                    <a href="#" class="link">Contact us</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-menuEnterSol" aria-expanded="false"
+                                aria-controls="flush-menuEnterSol">
+                                ENTERPRISE SOLUTION
+                            </button>
+                            <div id="flush-menuEnterSol" class="accordion-collapse collapse show"
+                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="link-header">Software Application Solution</div>
+                                <div class="links">
+                                    <a href="#" class="link">
+                                        <i class="me-2 fas fa-minus"></i>
+                                        Web Based Application
+                                    </a>
+                                    <a href="#" class="link">
+                                        <i class="me-2 fas fa-minus"></i>
+                                        Mobile Application
+                                    </a>
+                                </div>
+                                <div class="link-header">Software Application Solution</div>
+                                <div class="links">
+                                    <a href="#" class="link">
+                                        <i class="me-2 fas fa-minus"></i>
+                                        IT Managed Services
+                                    </a>
+                                    <a href="#" class="link">
+                                        <i class="me-2 fas fa-minus"></i>
+                                        Infrasctucture Design Services
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#product" aria-expanded="false" aria-controls="product">
+                                PRODUCT
+                            </button>
+                            <div id="product" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="links">
+                                    <a href="#" class="link">e-Statement</a>
+                                    <a href="#" class="link">Agritech System</a>
+                                    <a href="#" class="link">e-Tax System</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#letTalk" aria-expanded="false" aria-controls="letTalk">
+                                LET'S TALK
+                            </button>
+                            <div id="letTalk" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="links">
+                                    <a href="#" class="link">Contact us</a>
+                                    <a href="#" class="link">Career</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-close">
+                    <button class="btnCloseMega">
+                        <span class="bar-x bar-1"></span>
+                        <span class="bar-x bar-2"></span>
+                        <span class="bar-x bar-3"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main class="service" id="service">
+        <section class="hero"
+            style="background-image:url(./assets/images/sliders/3.png); background-attachment: fixed; background-position: center ; background-size: cover;">
+            <div class="container">
+                <div class="hero-text">
+                    <span class="title" data-aos-duration="1000" data-aos="fade-up">Enterprise Solutions</span>
+                    <h1 class="header" data-aos-duration="1200" data-aos="fade-up">Infrastructure Solutions</h1>
+                    <p class="short-dev" data-aos-duration="1400" data-aos="fade-up">
+                        Focus on growing your business while we take care of your Information Technology, Infrastructure
+                        Operation, and its strategy needs
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-dark text-white py-5">
+            <div class="container">
+                <h1 class="text-center">PROGRESS</h1>
+            </div>
+        </section>
+
+        <section class="sofware-and-client">
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-md-5">
+                        <h2 class="header-section text-start">Our Software Team Capabilities</h2>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="item-imgs">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img data-aos="fade-up" data-aos-duration="500"
+                                        src="./assets/images/code-tools/1.png" alt="code tool" class="img-fluid">
+                                </div>
+                                <div class="col-3">
+                                    <img data-aos="fade-up" data-aos-duration="1000"
+                                        src="./assets/images/code-tools/2.png" alt="code tool" class="img-fluid">
+                                </div>
+                                <div class="col-3">
+                                    <img data-aos="fade-down" data-aos-duration="500"
+                                        src="./assets/images/code-tools/3.png" alt="code tool" class="img-fluid">
+                                </div>
+                                <div class="col-3">
+                                    <img data-aos="fade-up" data-aos-duration="1000"
+                                        src="./assets/images/code-tools/4.png" alt="code tool" class="img-fluid">
+                                </div>
+                                <div class="col-3">
+                                    <img data-aos="fade-up" data-aos-duration="500"
+                                        src="./assets/images/code-tools/5.png" alt="code tool" class="img-fluid">
+                                </div>
+                                <div class="col-3">
+                                    <img data-aos="fade-up" data-aos-duration="1000"
+                                        src="./assets/images/code-tools/6.png" alt="code tool" class="img-fluid">
+                                </div>
+                                <div class="col-3">
+                                    <img data-aos="fade-up" data-aos-duration="500"
+                                        src="./assets/images/code-tools/7.png" alt="code tool" class="img-fluid">
+                                </div>
+                                <div class="col-3">
+                                    <img data-aos="fade-up" data-aos-duration="1000"
+                                        src="./assets/images/code-tools/8.png" alt="code tool" class="img-fluid">
+                                </div>
+                                <div class="col-3">
+                                    <img data-aos="fade-up" data-aos-duration="500"
+                                        src="./assets/images/code-tools/9.png" alt="code tool" class="img-fluid">
+                                </div>
+                                <div class="col-3">
+                                    <img data-aos="fade-up" data-aos-duration="1000"
+                                        src="./assets/images/code-tools/10.png" alt="code tool" class="img-fluid">
+                                </div>
+                                <div class="col-3">
+                                    <img data-aos="fade-up" data-aos-duration="500"
+                                        src="./assets/images/code-tools/11.png" alt="code tool" class="img-fluid">
+                                </div>
+                                <div class="col-3">
+                                    <img data-aos="fade-up" data-aos-duration="1000"
+                                        src="./assets/images/code-tools/12.png" alt="code tool" class="img-fluid">
+                                </div>
+                                <div class="col-3">
+                                    <img data-aos="fade-up" data-aos-duration="500"
+                                        src="./assets/images/code-tools/13.png" alt="code tool" class="img-fluid">
+                                </div>
+                                <div class="col-3">
+                                    <img data-aos="fade-up" data-aos-duration="1000"
+                                        src="./assets/images/code-tools/14.png" alt="code tool" class="img-fluid">
+                                </div>
+                                <div class="col-3">
+                                    <img data-aos="fade-up" data-aos-duration="500"
+                                        src="./assets/images/code-tools/15.png" alt="code tool" class="img-fluid">
+                                </div>
+                                <div class="col-3">
+                                    <img data-aos="fade-up" data-aos-duration="1000"
+                                        src="./assets/images/code-tools/16.png" alt="code tool" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-5">
+                        <h2 class="header-section text-start">Our Clients</h2>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="item-imgs clients">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img data-aos="fade-up" data-aos-duration="1000" src="./assets/images/clients/1.png"
+                                        alt="client" class="img-fluid">
+                                </div>
+                                <div class="col-3">
+                                    <img data-aos="fade-up" data-aos-duration="1500" src="./assets/images/clients/2.png"
+                                        alt="client" class="img-fluid">
+                                </div>
+                                <div class="col-3">
+                                    <img data-aos="fade-up" data-aos-duration="1000" src="./assets/images/clients/3.png"
+                                        alt="client" class="img-fluid">
+                                </div>
+                                <div class="col-3">
+                                    <img data-aos="fade-up" data-aos-duration="1500" src="./assets/images/clients/4.png"
+                                        alt="client" class="img-fluid">
+                                </div>
+                                <div class="col-3">
+                                    <img data-aos="fade-up" data-aos-duration="1000" src="./assets/images/clients/5.png"
+                                        alt="client" class="img-fluid">
+                                </div>
+                                <div class="col-3">
+                                    <img data-aos="fade-up" data-aos-duration="1500" src="./assets/images/clients/6.png"
+                                        alt="client" class="img-fluid">
+                                </div>
+                                <div class="col-3">
+                                    <img data-aos="fade-up" data-aos-duration="1000" src="./assets/images/clients/7.png"
+                                        alt="client" class="img-fluid">
+                                </div>
+                                <div class="col-3">
+                                    <img data-aos="fade-up" data-aos-duration="1500" src="./assets/images/clients/8.png"
+                                        alt="client" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="talk-to-us-sec" id="talk-to-us-sec">
+            <img class="bg-section-ttu" src="./assets/images/banner-1.png" alt="banner-1">
+            <div class="ttu-content">
+                <div class="container">
+                    <h2 data-aos="fade-up" data-aos-duration="1000" class="header-section text-center text-white">Let
+                        us
+                        Know How Unique is your
+                        Business</h2>
+                    <p data-aos="fade-up" data-aos-duration="1500" class="text-white text-center my-3">Let's discuss
+                        your needs and unlock the possibilities</p>
+                    <div class="d-flex justify-content-center">
+                        <button class="btn-sh-2" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1500">
+                            <span>Talk to us</span>
+                            <img src="./assets/images/illustrations/bg-btn-2.svg" alt="btn">
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer class="footer">
+        <div class="main-footer">
+            <div class="container-lg">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="logo-footer">
+                            <img src="./assets/images/logo_color_text.png" alt="logo">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-header">SERVICES</div>
+                        <div class="footer-content">
+                            <a href="" class="footer-link">
+                                <i class="fas fa-circle"></i>
+                                Custom Software Solutions
+                            </a>
+                            <a href="" class="footer-link">
+                                <i class="fas fa-circle"></i>
+                                Infrastructure Solutions
+                            </a>
+                            <a href="" class="footer-link">
+                                <i class="fas fa-circle"></i>
+                                Technology Staffing
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-header">PRODUCTS</div>
+                        <div class="footer-content">
+                            <a href="" class="footer-link">
+                                <i class="fas fa-circle"></i>
+                                Plasma
+                            </a>
+                            <a href="" class="footer-link">
+                                <i class="fas fa-circle"></i>
+                                Statement Solution
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-header">CONNECT WITH US</div>
+                        <div class="footer-content social">
+                            <a href="http://" target="_blank" rel="noopener noreferrer" class="footer-link">
+                                <i class="fab fa-facebook"></i>
+                                Facebook
+                            </a>
+                            <a href="http://" target="_blank" rel="noopener noreferrer" class="footer-link">
+                                <i class="fab fa-linkedin-in"></i>
+                                Linkedin
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright mx-2">
+            <span class="text-center">Copyright ©2022 PT. Profescipta.Wahana Teknik. All Right Reserved</span>
+        </div>
+    </footer>
+
+
+
+
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/jquery.inviewport.js"></script>
+    <script src="./assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/libs/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/libs/aos/aos.js"></script>
+    <script src="./assets/js/countUp.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script>
+        const swiper = new Swiper('.heroSlider', {
+            loop: true,
+            parallax: true,
+            speed: 1000,
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            }
+        });
+    </script>
+</body>
+
+</html>

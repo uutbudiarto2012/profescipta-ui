@@ -31,13 +31,18 @@ btnCloseMega.addEventListener("click", function () {
 const showSolutionButton = document.querySelector(".showSolutionButton")
 const hideSolutionButton = document.querySelector(".hideSolutionButton")
 const linkInHero = document.querySelector(".link-in-hero")
+if (showSolutionButton) {
+    showSolutionButton.addEventListener("click", () => {
+        linkInHero.classList.add("show")
+    })
 
-showSolutionButton.addEventListener("click", () => {
-    linkInHero.classList.add("show")
-})
-hideSolutionButton.addEventListener("click", () => {
-    linkInHero.classList.remove("show")
-})
+}
+if (hideSolutionButton) {
+    hideSolutionButton.addEventListener("click", () => {
+        linkInHero.classList.remove("show")
+    })
+
+}
 
 
 $(window).on('scroll', function () {

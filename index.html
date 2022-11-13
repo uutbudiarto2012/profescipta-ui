@@ -379,6 +379,56 @@
                         </p>
                     </div>
                 </div>
+                <div class="partner-slider-container">
+                    <p class="s-desc">We are blessed to work and growth with companies from multiple industries in
+                        Indonesia</p>
+                    <div class="swiper partner-slider partnerSlider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="partner-item">
+                                    <img src="./assets/images/clients/1.png" alt="partner">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="partner-item">
+                                    <img src="./assets/images/clients/2.png" alt="partner">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="partner-item">
+                                    <img src="./assets/images/clients/3.png" alt="partner">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="partner-item">
+                                    <img src="./assets/images/clients/4.png" alt="partner">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="partner-item">
+                                    <img src="./assets/images/clients/5.png" alt="partner">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="partner-item">
+                                    <img src="./assets/images/clients/6.png" alt="partner">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="partner-item">
+                                    <img src="./assets/images/clients/7.png" alt="partner">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="partner-item">
+                                    <img src="./assets/images/clients/8.png" alt="partner">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
             </div>
         </section>
         <section id="fitur" class="dark fitur"
@@ -780,6 +830,38 @@
                 prevEl: '.swiper-button-prev',
             }
         });
+        const swiperPartner = new Swiper('.partnerSlider', {
+            loop: true,
+            parallax: true,
+            speed: 1000,
+            centeredSlides: true,
+            slidesPerView: 3,
+            breakpoints: {
+                "@0.00": {
+                    slidesPerView: 3,
+                    spaceBetween: 30,
+                },
+                "@0.75": {
+                    slidesPerView: 4,
+                },
+                "@1.00": {
+                    slidesPerView: 6,
+                },
+                "@1.50": {
+                    slidesPerView: 7,
+                },
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            }
+        });
+
     </script>
 </body>
 

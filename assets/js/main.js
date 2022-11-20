@@ -111,3 +111,23 @@ if (talkToUsSec) {
         bgSectionttu.style.transform = "scale(1)"
     })
 }
+
+
+// HOVER VISIMISI
+const kAtasMain = document.querySelectorAll(".k-atas")
+if (kAtasMain) {
+    kAtasMain.forEach(item => {
+        item.addEventListener("mouseover", function () {
+            const nextEl = item.querySelector(".layer")
+            if (nextEl) {
+                nextEl.classList.add("show")
+            }
+        })
+        item.addEventListener("mouseleave", function () {
+            const nextEl = item.querySelector(".layer")
+            if (nextEl) {
+                nextEl.classList.remove("show")
+            }
+        })
+    });
+}
